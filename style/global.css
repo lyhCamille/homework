@@ -1,0 +1,16 @@
+@charset "utf-8";
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, button,textarea, p, blockquote, th, td {margin:0; padding:0; word-wrap:break-word; word-break:break-all; -webkit-text-size-adjust:none;}
+body {position:relative; font:16px/1.5 "微软雅黑",Tahoma,Helvetica,Arial,sans-serif; color:#474747;}
+ol,ul {list-style:none;}
+fieldset,img {border:0;}
+abbr, acronym {border:0; font-variant:normal;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+address, caption, cite, code, dfn, em, var {font-style:normal;}
+table {border-collapse:collapse;}
+caption,th {text-align:left;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+a {color:#474747; text-decoration:none;}
+a:hover {text-decoration:none;}
+input, button, textarea, select, optgroup, option {font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; resize:none;}
+input, button, textarea, select {*font-size:100%;}

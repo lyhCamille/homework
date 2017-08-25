@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style/global.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	
+</head>
+<body>
+	<div class="handWrap clearfix" id="handWrap">
+		<div class="arm"></div><!-- 手腕 -->
+		<div class="hand"></div><!-- 手掌 -->
+		<div class="thumb">
+			<a href="javaScript:void(0);" class="fingernail"></a>
+			<a href="javaScript:void(0);" class="joint"></a>
+		</div><!-- 大拇指 -->
+		<ul class="fingerUl"><!-- 四个手指 -->
+			<li><a href="javaScript:void(0);" class="fingernail"></a></li>
+			<li><a href="javaScript:void(0);" class="fingernail"></a></li>
+			<li><a href="javaScript:void(0);" class="fingernail"></a></li>
+			<li><a href="javaScript:void(0);" class="fingernail"></a></li>
+		</ul>
+		<div id="addNum" class="addNum"></div>
+	</div>
+
+	<!--<script type="text/javascript" src="https://cdn.bootcss.com/systemjs/0.20.18/system.js"></script>-->
+
+	<script type="module">
+		var System = require('systemjs');
+		System.import('./index.js').then(function(m) {
+		  console.log(m);
+		});
+	</script>
+</body>
+</html>
